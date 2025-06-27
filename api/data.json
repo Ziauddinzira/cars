@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "model": "Toyota Corolla",
+    "year": "2023",
+    "engine": "1.8L Inline-4",
+    "horsepower": "139",
+    "manufacturer": "Toyota",
+    "category": "Sedan",
+    "image": "/img/toyota_corolla.jpg"
+  },
+  {
+    "id": "2",
+    "model": "Honda Civic",
+    "year": "2024",
+    "engine": "2.0L Inline-4",
+    "horsepower": "158",
+    "manufacturer": "Honda",
+    "category": "Sedan",
+    "image": "/img/honda_civic.jpg"
+  },
+  {
+    "id": "3",
+    "model": "BMW 3 Series",
+    "year": "2023",
+    "engine": "2.0L Inline-4",
+    "horsepower": "255",
+    "manufacturer": "BMW",
+    "category": "Sedan",
+    "image": "/img/bmw_3series.jpg"
+  },
+  {
+    "id": "4",
+    "model": "Audi A4",
+    "year": "2024",
+    "engine": "2.0L Inline-4",
+    "horsepower": "201",
+    "manufacturer": "Audi",
+    "category": "Sedan",
+    "image": "/img/audi_a4.jpg"
+  },
+  {
+    "id": "5",
+    "model": "Mercedes-Benz E-Class",
+    "year": "2023",
+    "engine": "2.0L Inline-4",
+    "horsepower": "255",
+    "manufacturer": "Mercedes-Benz",
+    "category": "Sedan",
+    "image": "/img/mercedes_eclass.jpg"
+  },
+  {
+    "id": "6",
+    "model": "Ford F-150",
+    "year": "2024",
+    "engine": "3.5L V6",
+    "horsepower": "400",
+    "manufacturer": "Ford",
+    "category": "Truck",
+    "image": "/img/ford_f150.jpg"
+  },
+  {
+    "id": "7",
+    "model": "Chevrolet Silverado",
+    "year": "2023",
+    "engine": "5.3L V8",
+    "horsepower": "355",
+    "manufacturer": "Chevrolet",
+    "category": "Truck",
+    "image": "/img/chevrolet_silverado.jpg"
+  },
+  {
+    "id": "8",
+    "model": "Hyundai Sonata",
+    "year": "2024",
+    "engine": "2.5L Inline-4",
+    "horsepower": "191",
+    "manufacturer": "Hyundai",
+    "category": "Sedan",
+    "image": "/img/hyundai_sonata.jpg"
+  },
+  {
+    "id": "9",
+    "model": "Lexus RX",
+    "year": "2023",
+    "engine": "3.5L V6",
+    "horsepower": "295",
+    "manufacturer": "Lexus",
+    "category": "SUV",
+    "image": "/img/lexus_rx.jpg"
+  },
+  {
+    "id": "10",
+    "model": "Nissan Altima",
+    "year": "2024",
+    "engine": "2.5L Inline-4",
+    "horsepower": "188",
+    "manufacturer": "Nissan",
+    "category": "Sedan",
+    "image": "/img/nissan_altima.jpg"
+  }
+]

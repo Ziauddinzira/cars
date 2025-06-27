@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cars Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="mui-navbar">
+    <div class="mui-navbar-title"> 🚗Car Viewer</div>
+    <div class="mui-navbar-links">
+      <a href="mainpage.html">Home</a>
+      <a href="#favoritesBox">Favorites</a>
+      <a href="#compareBox">Compare</a>
+      <a href="#detailsBox">Details</a>
+    </div>
+  </nav>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search car model..." />
+    <select id="manufacturerFilter">
+      <option value="">All Manufacturers</option>
+    </select>
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+    </select>
+    <button onclick="filterCars()">Search</button>
+  </div>
+
+  <table id="carsTable">
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Select</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <h2>Your Favorites</h2>
+  <div id="favoritesBox" class="hidden"></div>
+  <div id="compareBox" class="hidden"></div>
+  <div id="detailsBox" class="hidden"></div>
+  <button onclick="compareSelectedCars()">Compare Selected Cars</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
