@@ -11,8 +11,13 @@ func main() {
 	db.InitDB("favorites.db")
 	api.LoadCars() // <-- This loads your car data from api/data.json
 
-	fs := http.FileServer(http.Dir("./web"))
-	http.Handle("/", fs)
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path == "/" {
+			http.Redirect(w, r, "/mainpage.html", http.StatusFound)
+			return
+		}
+		http.FileServer(http.Dir("web")).ServeHTTP(w, r)
+	})
 
 	http.HandleFunc("/api/cars", api.GetCarsHandler)
 	http.HandleFunc("/api/cars/details", api.GetCarDetailsHandler)
